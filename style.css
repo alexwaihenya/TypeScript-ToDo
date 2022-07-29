@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+  }
+
+  .container{
+    min-width: 605px;
+    padding: 28px 0 30px;
+    /* margin: 137px auto; */
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+form{
+    /* height: 52px; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 25px;
+    position: relative;
+  }
+  #sub{
+    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+    height: 56px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    
+  
+  }
+  .form input{
+    height: 56px;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 16px;
+    border: 1px solid #999;
+  }
+  .form input:focus,
+  .form input.active{
+    padding-left: 32px;
+    border: 2px solid #3C87FF;
+  }
+  .task-input input::placeholder{
+    color: #bfbfbf;
+  }
+
+ .taskBox {
+  display: flex;
+  gap:104px;
+  /* margin-left:24px; */
+  justify-content: space-evenly;
+  border: #bfbfbf 2px solid;
+  margin-top: 32px;
+  margin: 24px;
+ border-radius: 8px;
+ padding: 16px;
+ 
+
+ }
+ .taskBox > div {
+  list-style: none;
+ 
+  
+ }
